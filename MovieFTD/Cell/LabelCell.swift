@@ -17,7 +17,7 @@ struct LabelState: Equatable {
     let font: UIFont
     let isMultiline: Bool
     
-    init(text: String, font: UIFont = UIFont.systemFont(ofSize: 17), isMultiline: Bool) {
+    init(text: String, font: UIFont = UIFont.systemFont(ofSize: 17), isMultiline: Bool = false) {
         self.text = text
         self.font = font
         self.isMultiline = isMultiline
